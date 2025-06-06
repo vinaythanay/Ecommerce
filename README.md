@@ -1,32 +1,44 @@
 # 🛒 E-Commerce Website (React)
 
-A modern, responsive e-commerce website built using **ReactJS**. This project showcases a user-friendly shopping experience with product listings, cart functionality, and a clean UI.
+A modern, responsive e-commerce website built using **ReactJS**. This project showcases a complete shopping experience with product listings, cart functionality, and a polished user interface.
 
 🔗 **Live Demo**: [https://vinaythanay.netlify.app/](https://vinaythanay.netlify.app/)
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
 - Responsive layout for mobile and desktop
 - Product listings with images and details
 - Add to Cart functionality
-- Dynamic Cart page with total price calculation
-- Navigation between Home, Products, Cart
-- Smooth UI/UX using modern CSS techniques
+- Cart page with quantity updates and total price
+- Navigation between Home, Products, and Cart
+- Smooth UI/UX using modern CSS
+
+---
+
+## 🔧 Additional Features
+
+- ✅ **User Authentication** – Login and Signup functionality
+- ✅ **Payment Gateway Integration** – Secure checkout experience
+- ✅ **Product Filtering & Search** – Quickly find desired items
+- ✅ **Real-time Cart Updates** – Changes reflect instantly
+- ✅ **Wishlist or Favorites** – Save items for later
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **ReactJS** (Frontend framework)
-- **React Router DOM** (Navigation)
-- **Context API / useState** (State management)
-- **CSS / TailwindCSS / Styled Components** (UI Styling - depending on your implementation)
+- **ReactJS**
+- **React Router DOM**
+- **Context API / Redux** (based on your state management)
+- **CSS / TailwindCSS / Styled Components**
+- **Firebase / Stripe / Other API services** (if applicable)
 - **Netlify** (Deployment)
 
 ---
 
+## 📁 Folder Structure
 ## 📁 Folder Structure
 ecommerce-website/ │ ├── public/ │   └── index.html │ ├── src/ │   ├── components/ │   │   └── Header.js, ProductCard.js, Cart.js, etc. │   ├── pages/ │   │   └── Home.js, Products.js, CartPage.js, etc. │   ├── App.js │   ├── index.js │   └── styles/ │       └── app.css │ ├── .gitignore ├── package.json └── README.md
 ---
@@ -71,21 +83,6 @@ To deploy your own version:
 
 
 6. Deploy!
-
-
-
-
----
-
-📌 Future Improvements
-
-Add user authentication (Login/Signup)
-
-Integrate payment gateway
-
-Add product filtering and search
-
-Connect to a backend/API
 
 
 
